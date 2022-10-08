@@ -20,8 +20,8 @@ for i=1:1:3
                 yb= (L/n)* j ;
                 X0 = (L/n)*(i-0.5);
                 Y0 = (L/n)*(j-0.5);
-    
-                %DAU X
+                
+                %Phuong trinh tham so duong thang 
                 X =(xa+30) +(xb-xa-60)*t;   %giam kich thuoc chu x
                 Y =(ya+30) +(yb-ya-60)*t; 
 
@@ -68,7 +68,8 @@ for i=1:1:3
                 yb= (L/n)* j ;
                 X0 = (L/n)*(i-0.5);
                 Y0 = (L/n)*(j-0.5);
-
+                
+                %Phuong trinh tham so duong thang 
                 X =(xa+30) +(xb-xa-60)*t; %giam kich thuoc chu x
                 Y =(yb-30) +(ya-yb+60)*t; 
 
@@ -109,7 +110,8 @@ for i=1:1:3
             for t=0:0.1:2*pi
                 X0 = (L/n)*(i-0.5);
                 Y0 = (L/n)*(j-0.5);
-
+                
+                %Phuong trinh tham so duong t
                 X = X0+R*cos(t);
                 Y = Y0+R*sin(t);
 
